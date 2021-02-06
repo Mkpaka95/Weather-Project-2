@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>Weather Forecast NYC</title>
+    <meta charset="UTF-8" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="src/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <a href="https://mystifying-hermann-75a5b2.netlify.app" ></a>
+    <script
+      src="https://kit.fontawesome.com/bfe05f30c6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body >
+      <section>
+          <div class="forecast">
+            7 Day Weather Forecast
+          </div>
+        </section>
+      <div class="container">
+          <div class="weather-app">
+    <h1>
+      New York City
+    </h1>
+  </section>
+  <h2 class= "current-temperature"> Current Temperature  46°</h2>
+    <section>
+      <form id ="search-city">
+      <input 
+      id="city-input"
+      id="geo-location"
+        type="text"
+        class="form-control "
+        placeholder="search city"
+      />
+      <br>
+      </br>
+      <button class="btn btn-primary"class="search-button">
+          search
+        </button>
+        <button
+                class="btn btn-success "
+                id="current-location-button"
+              >
+                current
+              </button>
+        <section>
+            <div class="weather-app">
+          <div class="row">
+            <ul id = "day">
+              <li>
+                <div class="col-4"></div>
+                <div class="col-3">Sunday</div>
+                <i class="fas fa-cloud 1"></i>
+              </li>
+              <div class="col-3">Monday</div>
+              <i class="fas fa-cloud-rain"></i>
+              <li>
+                <div class="col-3">Tuesday</div>
+                <i class="fas fa-sun"></i>
+              </li>
+              <li>
+                <div class="col-3">Wednesday</div>
+                <i class="far fa-snowflake"></i>
+              </li>
+              <li>
+                <div class="col-3">Thursday</div>
+                <i class="far fa-snowflake"></i>
+              </li>
+              <li>
+                <div class="col-3">Friday</div>
+                <i class="fas fa-sun"></i>
+              </li>
+              <li>
+                <div class="col-3">Saturday</div>
+                <i class="fas fa-cloud-sun"></i>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </form>
+    </div>
+    <script src="src/index.js"></script>
+    <script>
+      function retrievePosition(position) {
+      navigator.geolocation.getCurrentPosition(showPosition);
+      console.log(position);
+      }
+      </script>
+    <script src="src/index.js"></script>
+   <a href="https://mystifying-hermann-75a5b2.netlify.app/"> Open Source Code by Mangie Nadia Kpaka </a> 
+  </body>
+</html>
