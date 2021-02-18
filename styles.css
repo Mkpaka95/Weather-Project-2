@@ -17,6 +17,9 @@ body {
   border: 1px solid #dadde1;
 }
 
+a {
+  display: inline-block;
+}
 .weather-app {
   border: 1px solid #dadde1;
   padding: 15px;
