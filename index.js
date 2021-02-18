@@ -69,8 +69,11 @@ currentLocationButton.addEventListener("click", getPosition);
  
 function displayFahrenheitTemperature (event){
   event.preventDefault();
-alert("Link clicked")
+  let fahrenheitTemperature= (0 * 9) /5 + 32;
+  let temperatureElement= document.querySelector("temperature");
+  temperatureElement.innerHTML= Math.round(fahrenheitTemperature);
 }
+
 let fahrenheitLink=documnt.querySelector("fahrenheit-link");
 form.addEventListener("click", displayFahrenheitTemperature);
 
