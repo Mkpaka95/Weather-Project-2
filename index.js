@@ -77,4 +77,4 @@ function displayFahrenheitTemperature (event){
 let fahrenheitLink=documnt.querySelector("fahrenheit-link");
 form.addEventListener("click", displayFahrenheitTemperature);
 
-
+search("New York");
