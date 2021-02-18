@@ -66,3 +66,12 @@ function getPosition(event) {
 
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getPosition);
+ 
+function displayFahrenheitTemperature (event){
+  event.preventDefault();
+alert("Link clicked")
+}
+let fahrenheitLink=documnt.querySelector("fahrenheit-link");
+form.addEventListener("click", displayFahrenheitTemperature);
+
+
