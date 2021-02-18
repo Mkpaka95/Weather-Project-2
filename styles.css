@@ -17,9 +17,9 @@ body {
   border: 1px solid #dadde1;
 }
 
-a {
-  display: inline-block;
+.github {
   text-align: center;
+  display: inline;
 }
 .weather-app {
   border: 1px solid #dadde1;
