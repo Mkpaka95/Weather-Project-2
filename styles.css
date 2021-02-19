@@ -21,6 +21,9 @@ body {
   text-align: center;
   display: inline;
 }
+.Celsius-link {
+  text-decoration: none;
+}
 .weather-app {
   border: 1px solid #dadde1;
   padding: 15px;
