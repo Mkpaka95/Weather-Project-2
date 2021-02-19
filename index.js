@@ -79,3 +79,15 @@ let fahrenheitLink = document.querySelector("#fahrenheit-link");
 fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 searchCity("New York");
+
+function displayCelsiusTemperature (event){
+  event.preventDefault();
+  let celsiusTemperature= (32-32) * 5 /9;
+  alert(celsiusTemperature);
+  let temperatureElement= document.querySelector("temperature");
+  temperatureElement.innerHTML= Math.round(celsiusTemperature);
+}
+let celsiusLink = document.querySelector("#celsius-link");
+celsiusLink.addEventListener("click", displaycelsiusTemperature);
+
+searchCity("New York");
