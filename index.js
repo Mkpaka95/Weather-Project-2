@@ -68,6 +68,26 @@ function getPosition(event) {
 let currentLocationButton = document.querySelector("#current-location-button");
 currentLocationButton.addEventListener("click", getPosition);
  
+function showCurrentConditions(response) {
+  console.log(response.data);
+  let temperature = Math.round(response.data.main.temp);
+  let currentTemp = document.querySelector("#current-temperature");
+  currentTemp.innerHTML = `${temperature}`;
+
+  let description = response.data.weather[0].main;
+  let currentDescription = document.querySelector("#description");
+  currentDescription.innerHTML = description;
+
+  let humidity = response.data.main.humidity;
+  let currentHumidity = document.querySelector("#humidity");
+  currentHumidity.innerHTML = humidity;
+
+  let windSpeed = Math.round(response.data.wind.speed);
+  let wind = document.querySelector("#wind-speed");
+  wind.innerHTML = windSpeed;
+}
+
+
 function displayFahrenheitTemperature (event){
   event.preventDefault();
   let fahrenheitTemperature= (celsiusTemperature * 9) /5 + 32;
