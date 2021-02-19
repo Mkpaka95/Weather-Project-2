@@ -2,6 +2,7 @@ h1 {
   font-size: 30px;
   color: #794c74;
   display: inline-block;
+  text-align: center;
   font-family: "Abril Fatface", cursive;
 }
 
@@ -35,7 +36,7 @@ body {
   text-decoration: none;
 }
 
-.Fahrenheit-link {
+.fahrenheit-link {
   text-decoration: none;
 }
 
