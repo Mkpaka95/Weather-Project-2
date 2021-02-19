@@ -14,7 +14,6 @@ h2 {
 
 body {
   font-family: "Abril Fatface", cursive;
-  background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
   display: inline;
   border: 1px solid #dadde1;
 }
@@ -52,6 +51,7 @@ body {
 
 .weather-app {
   font-family: "Abril Fatface", cursive;
+  background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
   border: 1px solid #dadde1;
   padding: 15px;
   margin: 20px auto;
