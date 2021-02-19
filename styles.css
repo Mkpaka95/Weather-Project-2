@@ -21,9 +21,23 @@ body {
   text-align: center;
   display: inline;
 }
+
 .Celsius-link {
   text-decoration: none;
 }
+
+.Fahrenheit-link {
+  text-decoration: none;
+}
+
+.wind {
+  color: #794c74;
+}
+
+.precipitation {
+  color: #794c74;
+}
+
 .weather-app {
   border: 1px solid #dadde1;
   padding: 15px;
