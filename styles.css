@@ -56,6 +56,7 @@ ul {
   display: inline;
   list-style-position: relative;
   list-style: none;
+  font-family: "Abril Fatface", cursive;
 }
 
 .fa-cloud-rain {
@@ -150,4 +151,5 @@ ul {
   font-size: 50px;
   text-align: center;
   color: #794c74;
+  font-family: "Abril Fatface", cursive;
 }
