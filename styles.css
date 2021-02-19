@@ -28,7 +28,7 @@ body {
 
 .github {
   text-align: center;
-  display: inline;
+  margin: auto;
 }
 
 .celsius-link.hover {
