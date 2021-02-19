@@ -26,11 +26,6 @@ body {
   font-family: "Abril Fatface", cursive;
 }
 
-.github {
-  text-align: center;
-  margin: auto;
-}
-
 .celsius-link.hover {
   color: #000000;
   text-decoration: none;
@@ -155,4 +150,9 @@ ul {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
+}
+
+.github {
+  text-align: center;
+  text-decoration: none;
 }
