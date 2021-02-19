@@ -31,9 +31,9 @@ body {
   display: inline;
 }
 
-.Celsius-link {
-  text-decoration: none;
+.celsius-link {
   color: #000000;
+  text-decoration: none;
 }
 
 .Fahrenheit-link {
