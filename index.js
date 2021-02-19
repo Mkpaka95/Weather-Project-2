@@ -46,6 +46,7 @@ let form = document.querySelector("form");
 form.addEventListener("submit", search);
 formatDate();
 
+
 function showWeather(response) {
   console.log(response.data);
   let h2 = document.querySelector("h2");
@@ -70,11 +71,11 @@ currentLocationButton.addEventListener("click", getPosition);
 function displayFahrenheitTemperature (event){
   event.preventDefault();
   let fahrenheitTemperature= (3 * 9) /5 + 32;
+  alert(fahrenheitTemperature);
   let temperatureElement= document.querySelector("temperature");
   temperatureElement.innerHTML= Math.round(fahrenheitTemperature);
 }
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
-let fahrenheitLink=documnt.querySelector("fahrenheit-link");
-form.addEventListener("click", displayFahrenheitTemperature);
-
-search("New York");
+searchCity("New York");
