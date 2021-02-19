@@ -155,4 +155,5 @@ ul {
 .github {
   text-align: center;
   text-decoration: none;
+  display: block;
 }
