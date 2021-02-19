@@ -80,6 +80,8 @@ fahrenheitLink.addEventListener("click", displayFahrenheitTemperature);
 
 searchCity("New York");
 
+ let celsiusTemperature=null;
+
 function displayCelsiusTemperature (event){
   event.preventDefault();
   let celsiusTemperature= (32-32) * 5 /9;
