@@ -19,6 +19,13 @@ body {
   border: 1px solid #dadde1;
 }
 
+.forecast {
+  font-size: 50px;
+  text-align: center;
+  color: #794c74;
+  font-family: "Abril Fatface", cursive;
+}
+
 .github {
   text-align: center;
   display: inline;
@@ -146,10 +153,4 @@ ul {
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
-}
-.forecast {
-  font-size: 50px;
-  text-align: center;
-  color: #794c74;
-  font-family: "Abril Fatface", cursive;
 }
