@@ -36,12 +36,12 @@ body {
 }
 
 .wind {
-  color: #794c74;
+  color: #000000;
   font-family: "Abril Fatface", cursive;
 }
 
-.precipitation {
-  color: #794c74;
+.humidity {
+  color: #000000;
   font-family: "Abril Fatface", cursive;
 }
 
