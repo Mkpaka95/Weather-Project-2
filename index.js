@@ -85,7 +85,10 @@ function showCurrentConditions(response) {
   let windSpeed = Math.round(response.data.wind.speed);
   let wind = document.querySelector("#wind-speed");
   wind.innerHTML = windSpeed;
+  axios.get(apiUrl).then(showCurrentConditions);
 }
+
+
 
 
 function displayFahrenheitTemperature (event){
