@@ -54,7 +54,6 @@ body {
 
 .weather-app {
   font-family: "Abril Fatface", cursive;
-  background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
   background-image: url(http://cdn.lowgif.com/full/ba34873e307e56ba-.gif);
   border: 1px solid #dadde1;
   padding: 15px;
