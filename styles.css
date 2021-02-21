@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-  color: #794c74;
+  color: #167347;
   font-size: 30px;
   text-align: left;
   font-family: "Abril Fatface", cursive;
@@ -55,6 +55,7 @@ body {
 .weather-app {
   font-family: "Abril Fatface", cursive;
   background-image: url(http://cdn.lowgif.com/full/ba34873e307e56ba-.gif);
+  max-width: width 100%;
   border: 1px solid #dadde1;
   padding: 15px;
   margin: 20px auto;
