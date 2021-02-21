@@ -84,7 +84,7 @@ function showCurrentConditions(response) {
 
   let windSpeed = Math.round(response.data.wind.speed);
   let wind = document.querySelector("#wind-speed");
-  wind.innerHTML = windSpeed;
+  windSpeed.innerHTML = Math.round(response.data.wind.speed);
   axios.get(apiUrl).then(showCurrentConditions);
 }
 
