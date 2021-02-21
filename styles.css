@@ -27,15 +27,19 @@ body {
 }
 
 .celsius-link {
-  color: #000000;
   text-decoration: none;
 }
+
 .celsius-link.hover {
   cursor: pointer;
 }
 
 .fahrenheit-link {
   text-decoration: none;
+}
+
+.fahrenheit-link hover {
+  cursor: pointer;
 }
 
 .wind {
