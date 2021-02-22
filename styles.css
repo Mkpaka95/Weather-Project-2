@@ -26,10 +26,6 @@ body {
   font-family: "Abril Fatface", cursive;
 }
 
-.current-temperature {
-  font: 30px;
-  color: #f4f4f4;
-}
 .celsius-link {
   text-decoration: none;
   color: #0000;
