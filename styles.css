@@ -26,20 +26,12 @@ body {
   font-family: "Abril Fatface";
 }
 
-a :celsius-link {
+a {
   text-decoration: none;
   color: #0000;
 }
 
-a .celsius-link.hover {
-  cursor: pointer;
-}
-
-a .fahrenheit-link {
-  text-decoration: none;
-}
-
-a.fahrenheit-link hover {
+a hover {
   cursor: pointer;
 }
 
