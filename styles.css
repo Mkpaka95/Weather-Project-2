@@ -26,7 +26,7 @@ body {
   font-family: "Abril Fatface";
 }
 
-a .celsius-link {
+a {
   text-decoration: none;
   color: #0000;
 }
