@@ -85,12 +85,6 @@ ul {
   color: #f4f4f4;
 }
 
-.cloud.current-cloud {
-  font-size: 50px;
-  text-align: center;
-  display: inline;
-}
-
 .fa-snowflake {
   font-size: 50px;
   color: #eff8ff;
