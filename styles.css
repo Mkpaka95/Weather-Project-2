@@ -68,7 +68,7 @@ ul {
   display: inline;
   list-style-position: relative;
   list-style: none;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
 }
 
 .fa-cloud-rain {
