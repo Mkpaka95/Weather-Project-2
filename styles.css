@@ -28,6 +28,7 @@ body {
 
 .celsius-link {
   text-decoration: none;
+  color: #0000;
 }
 
 .celsius-link.hover {
