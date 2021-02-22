@@ -7,7 +7,7 @@ h1 {
 }
 
 h2 {
-  color: #0a5ed6;
+  color: #ffff;
   font-size: 30px;
   text-align: left;
   font-family: "Abril Fatface", cursive;
@@ -103,7 +103,6 @@ ul {
 
 .btn-primary {
   color: #fff;
-  background-color: #70d1d7;
   display: inline-block;
   position: relative;
   vertical-align: middle;
