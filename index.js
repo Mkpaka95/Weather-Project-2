@@ -10,21 +10,6 @@ function formatDate(timestamp) {
     minutes = `0${minutes}`;
   }
 
-
-function formatHours(timestamp) {
-  let date = new Date(timestamp);
-  let hours = date.getHours();
-  if (hours < 10) {
-    hours = `0${hours}`;
-  }
-  let minutes = date.getMinutes();
-  if (minutes < 10) {
-    minutes = `0${minutes}`;
-  }
-
-  return `${hours}:${minutes}`;
-}
-
   let dayIndex = date.getDay();
   let days = [
     "Sunday",
@@ -38,6 +23,20 @@ function formatHours(timestamp) {
   let day = days[dayIndex];
 
   return `${day} ${hours}:${minutes}`;
+}
+
+function formatHours(timestamp) {
+  let date = new Date(timestamp);
+  let hours = date.getHours();
+  if (hours < 10) {
+    hours = `0${hours}`;
+  }
+  let minutes = date.getMinutes();
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
+
+  return `${hours}:${minutes}`;
 }
 
 function search(event) {
