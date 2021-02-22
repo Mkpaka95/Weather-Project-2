@@ -86,11 +86,8 @@ function showCurrentConditions(response) {
   let currentHumidity = document.querySelector("#humidity");
   currentHumidity.innerHTML = humidity;
 
-  let apiKey = "2bc5f2cd163f73cc74189901c43777b2";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?${humidity}&appid=${apiKey}&units=metric`;
-  
   let windSpeed = Math.round(response.data.wind.speed);
-  let wind = document.querySelector("#wind-speed");
+  let wind = document.querySelector("windSpeed");
   windSpeed.innerHTML = Math.round(response.data.wind.speed);
   axios.get(apiUrl).then(showCurrentConditions);
 }
