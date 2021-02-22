@@ -3,18 +3,18 @@ h1 {
   color: #ffff;
   display: inline-block;
   text-align: center;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
 }
 
 h2 {
   color: #ffff;
   font-size: 30px;
   text-align: left;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
 }
 
 body {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
   display: inline;
   color: #ffff;
   border: 1px solid #dadde1;
@@ -23,7 +23,7 @@ body {
   font-size: 50px;
   text-align: center;
   color: #0a5ed6;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
 }
 
 a .celsius-link {
@@ -45,16 +45,16 @@ a.fahrenheit-link hover {
 
 .wind {
   color: #ffff;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
 }
 
 .humidity {
   color: #ffff;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
 }
 
 .weather-app {
-  font-family: "Abril Fatface", cursive;
+  font-family: "Abril Fatface";
   background-image: url(https://i.pinimg.com/originals/34/81/28/3481281034c6a94333f6ee8c9147a986.gif);
   border: 1px solid #dadde1;
   padding: 15px;
