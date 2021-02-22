@@ -70,22 +70,19 @@ currentLocationButton.addEventListener("click", getPosition);
  
 function showCurrentConditions(response) {
 
+  console.log(response.data);
+
+
   let apiKey = "2bc5f2cd163f73cc74189901c43777b2";
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?${humidity}&appid=${apiKey}&units=metric`;
   
-  console.log(response.data);
-  let temperature = Math.round(response.data.main.temp);
-  let currentTemp = document.querySelector("#current-temperature");
-  currentTemp.innerHTML = `${temperature}`;
-
-  let description = response.data.weather[0].main;
-  let currentDescription = document.querySelector("#description");
-  currentDescription.innerHTML = description;
-
   let humidity = response.data.main.humidity;
   let currentHumidity = document.querySelector("#humidity");
   currentHumidity.innerHTML = humidity;
 
+  let apiKey = "2bc5f2cd163f73cc74189901c43777b2";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?${wind-speed}&appid=${apiKey}&units=metric`;
+  
   let windSpeed = Math.round(response.data.wind.speed);
   let wind = document.querySelector("#wind-speed");
   windSpeed.innerHTML = Math.round(response.data.wind.speed);
