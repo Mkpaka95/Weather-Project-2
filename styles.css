@@ -16,9 +16,9 @@ h2 {
 body {
   font-family: "Abril Fatface", cursive;
   display: inline;
+  color: #ffff;
   border: 1px solid #dadde1;
 }
-
 .forecast {
   font-size: 50px;
   text-align: center;
