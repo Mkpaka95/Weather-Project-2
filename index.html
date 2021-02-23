@@ -10,100 +10,91 @@
       integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
       crossorigin="anonymous"
     />
-    <a href="https://sleepy-pike-3bac74.netlify.app/?" ></a>
+    <a href="https://sleepy-pike-3bac74.netlify.app/?"></a>
     <script
       src="https://kit.fontawesome.com/bfe05f30c6.js"
       crossorigin="anonymous"
     ></script>
   </head>
-  <body >
-      <section>
-          <div class="forecast">
-            7 Day Weather Forecast
-          </div>
-        </section>
-      <div class="container">
-          <div class="weather-app">
-    <h1>
-      New York City
-    </h1>
-  </section>
-  <h2 class= "current-temperature"> Current Temperature </h2>
+  <body>
     <section>
+      <div class="forecast">7 Day Weather Forecast</div>
+    </section>
+    <div class="container">
+      <div class="weather-app">
+        <h1>New York City</h1>
+        <h2 class="current-temperature">
+          <span id="current-temperature">Current Temperature</span>
+          <span class="units">
+            <a href="#" id="celsius-link">°C | </a>
+            <a href="#" id="fahrenheit-link">°F </a></span
+          >
+        </h2>
         <i class="fas fa-cloud"></i>
-      <span class="units">
-        <a href="#"id="celsius-link">°C | </a> 
-        <a href="#"id="fahrenheit-link">°F </a>
-      <ul>
-        <li class="wind">
-          Wind Speed : 2 m/s
-          </li>
-          <li class= "humidity">
-          Humidity : 59%
-          </li>
-      </ul>
-      </span>
-       <br>
-      </br>
-      <form id ="search-city">
-      <input 
-      id="city-input"
-      id="geo-location"
-        type="text"
-        class="form-control "
-        placeholder="search city"
-      />
-      <br>
-      </br>
-      <button class="btn btn-primary"class="search-button">
-          search
-        </button>
-        <button
-                class="btn btn-success "
-                id="current-location-button"
-              >
-                current
-              </button>
+        <ul>
+          <li id="description"></li>
+          <li>Wind Speed : <span id="wind">2</span> m/s</li>
+          <li>Humidity : <span id="humidity"></span>%</li>
+        </ul>
+        <br />
+        <br />
+        <form id="search-city">
+          <input
+            id="city-input"
+            id="geo-location"
+            type="text"
+            class="form-control"
+            placeholder="search city"
+          />
+          <br />
+          <br />
+          <button class="btn btn-primary" class="search-button">search</button>
+          <button class="btn btn-success" id="current-location-button">
+            current
+          </button>
+        </form>
         <section>
-            <div class="weather-app">
-          <div class="row">
-            <ul id = "day">
-              <li>
-                <div class="col-4"></div>
-                <div class="col-3">Sunday</div>
-                <i class="fas fa-cloud 1"></i>
-              </li>
-              <div class="col-3">Monday</div>
-              <i class="fas fa-cloud-rain"></i>
-              <li>
-                <div class="col-3">Tuesday</div>
-                <i class="fas fa-cloud"></i>
-              </li>
-              <li>
-                <div class="col-3">Wednesday</div>
-                <i class="fas fa-cloud"></i>
-              </li>
-              <li>
-                <div class="col-3">Thursday</div>
-                <i class="fas fa-sun"></i>
-              </li>
-              <li>
-                <div class="col-3">Friday</div>
-                <i class="fas fa-sun"></i>
-              </li>
-              <li>
-                <div class="col-3">Saturday</div>
+          <div class="weather-app">
+            <div class="row">
+              <ul id="day">
+                <li>
+                  <div class="col-4"></div>
+                  <div class="col-3">Sunday</div>
+                  <i class="fas fa-cloud 1"></i>
+                </li>
+                <div class="col-3">Monday</div>
                 <i class="fas fa-cloud-rain"></i>
-              </li>
-            </ul>
+                <li>
+                  <div class="col-3">Tuesday</div>
+                  <i class="fas fa-cloud"></i>
+                </li>
+                <li>
+                  <div class="col-3">Wednesday</div>
+                  <i class="fas fa-cloud"></i>
+                </li>
+                <li>
+                  <div class="col-3">Thursday</div>
+                  <i class="fas fa-sun"></i>
+                </li>
+                <li>
+                  <div class="col-3">Friday</div>
+                  <i class="fas fa-sun"></i>
+                </li>
+                <li>
+                  <div class="col-3">Saturday</div>
+                  <i class="fas fa-cloud-rain"></i>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
-      </form>
+      </div>
     </div>
-   <script src="index.js"></script>
-   <div>
-<a class="github" href="https://github.com/Mkpaka95/Weather-Project-2"> 
-  Open Source Code by Mangie Nadia Kpaka </a> 
-   </div>
+    <script src="index.js"></script>
+    <div>
+      <a class="github" href="https://github.com/Mkpaka95/Weather-Project-2">
+        Open Source Code by Mangie Nadia Kpaka
+      </a>
+    </div>
   </body>
 </html>
